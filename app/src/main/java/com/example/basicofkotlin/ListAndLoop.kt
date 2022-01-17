@@ -50,7 +50,8 @@ fun main(){
         i++
     }
     val city = listOf("Rajkot", "Ahmadabad", "Surat","Anand", "Gandhinagar","Junagadh","Ankleshwar")
-    city.filter { it.startsWith("A") }.sortedBy { it }.map { it.uppercase() }.forEach { println(it) }
+    city.filter { cityName ->
+        cityName.startsWith("A") }.sortedBy {cityName -> cityName}.map { it.uppercase() }.forEach { println(it) }
 
 
     //DoWhile
