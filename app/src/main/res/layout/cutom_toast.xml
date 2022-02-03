@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/customToast"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#E0F5D0"
+    android:gravity="center"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvLabel"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="I am Custom Toast!!"
+        android:textSize="22dp"
+        android:textColor="#C75B14"
+        android:gravity="center"
+        android:padding="15dp"
+        android:textStyle="bold" />
+</LinearLayout>

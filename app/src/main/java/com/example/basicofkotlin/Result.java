@@ -2,14 +2,14 @@ package com.example.basicofkotlin;
 
 import java.util.Scanner;
 
-enum Subject {
+enum SubjectDemo {
     English,
     Hindi,
     Maths,
     Science,
     SocialScience
 }
-class Student {
+class StudentDemo {
     String sName;
     int sRollno,sContact;
     void pDetail(String sName, int sRollno, int sContact) {
@@ -29,9 +29,9 @@ class Student {
 
 class Main {
     public static void main(String[] args) {
-        Subject sub[] = Subject.values();
+        SubjectDemo sub[] = SubjectDemo.values();
         Scanner sc = new Scanner(System.in);
-        Student s1 = new Student();
+        StudentDemo s1 = new StudentDemo();
 
         System.out.println("Enter Student Name: ");
         String name = sc.nextLine();
@@ -40,7 +40,7 @@ class Main {
         System.out.println("Enter Student Contact: ");
         int contact = sc.nextInt();
 
-        int marks[] = new int[Subject.values().length];
+        int marks[] = new int[SubjectDemo.values().length];
         for(int i=0; i < marks.length; i++) {
             System.out.println("Enter Mark of " + sub[i] + ": ");
             marks[i] = sc.nextInt();
@@ -49,7 +49,7 @@ class Main {
         s1.pDetail(name, rno, contact);
         int result = s1.cMarks(marks);
         System.out.println("Result is: " + result);
-        float percentage = result/Subject.values().length;
+        float percentage = result/ SubjectDemo.values().length;
         if(percentage >= 91)
             System.out.println("Grade A");
         else if (percentage <=90 && percentage >= 81)

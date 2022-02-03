@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">BasicOfKotlin</string>
+    <string name="hint_name">Enter Your Name..</string>
+    <string name="hint_phone">Enter Your Phone Number..</string>
+    <string name="maleGender">Male</string>
+    <string name="femaleGender">Female</string>
+    <string name="submitText">Submit</string>
+    <string name="cyclingHobby">Cycling</string>
+    <string name="travellingHobby">Travelling</string>
+    <string name="hobbyTitle">Hobby:</string>
+    <string name="offToggleText">I am OFF</string>
+    <string name="onToggleText">I am ON</string>
+    <string name="switchTitle">Switch</string>
+    <string name="clearContentDescription">Clear</string>
+    <string name="genderTitle">Gender:</string>
 </resources>

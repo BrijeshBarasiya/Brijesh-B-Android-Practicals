@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/formLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backGound"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.example.uiwidgets.FormExercise">
+
+    <EditText
+        android:id="@+id/txtName"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:background="@drawable/my_edittext"
+        android:hint="@string/hint_name"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:textColor="@color/textColor" />
+
+    <EditText
+        android:id="@+id/txtPhone"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/my_edittext"
+        android:hint="@string/hint_phone"
+        android:importantForAutofill="no"
+        android:inputType="phone"
+        android:maxLength="10"
+        android:padding="10dp"
+        android:textColor="@color/textColor" />
+
+    <LinearLayout
+        android:id="@+id/lvGender"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/genderTitle"
+            android:textColor="@color/highLight"
+            android:textSize="18sp" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rbMale"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:gravity="center"
+                android:text="@string/maleGender"
+                android:textColor="@color/textColor"
+                android:textSize="18sp" />
+
+            <RadioButton
+                android:id="@+id/rbFemale"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:gravity="center"
+                android:text="@string/femaleGender"
+                android:textColor="@color/textColor"
+                android:textSize="18sp" />
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:text="@string/hobbyTitle"
+            android:textColor="@color/highLight"
+            android:textSize="18sp" />
+
+        <CheckBox
+            android:id="@+id/chTravelling"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginStart="10dp"
+            android:text="@string/travellingHobby"
+            android:textColor="@color/textColor"
+            android:textSize="18sp" />
+
+        <CheckBox
+            android:id="@+id/chCyclying"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginStart="10dp"
+            android:text="@string/cyclingHobby"
+            android:textColor="@color/textColor"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/onColor"
+        android:text="@string/submitText"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="4dp"
+        android:orientation="horizontal">
+
+        <ToggleButton
+            android:id="@+id/tgDemo"
+            android:layout_width="140dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/my_toggle"
+            android:checked="true"
+            android:foreground="@drawable/my_ripple"
+            android:textColor="@color/white"
+            android:textOff="@string/offToggleText"
+            android:textOn="@string/onToggleText"
+            android:textSize="18sp" />
+
+        <Switch
+            android:id="@+id/shDemo"
+            android:layout_width="140dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:background="?android:selectableItemBackground"
+            android:checked="true"
+            android:gravity="center"
+            android:text="@string/switchTitle"
+            android:textColor="@color/textColor"
+            android:textSize="18sp"
+            tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/imgClear"
+            android:layout_width="140dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/offColor"
+            android:contentDescription="@string/clearContentDescription"
+            android:foreground="@drawable/my_ripple"
+            android:src="@drawable/ic_clear" />
+
+
+        <ImageButton
+            android:id="@+id/imgDone"
+            android:layout_width="140dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/onColor"
+            android:contentDescription="@string/clearContentDescription"
+            android:foreground="@drawable/my_ripple"
+            android:src="@drawable/ic_done" />
+    </LinearLayout>
+
+</LinearLayout>
