@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_6sdp"
+    android:backgroundTint="@color/teal_200"
+    app:cardCornerRadius="@dimen/_15sdp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_10sdp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/rclv_itm"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/rclv_itm_hdr_img"
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:src="@drawable/ic_android"
+                android:contentDescription="Image" />
+
+            <TextView
+                android:id="@+id/rclv_itm_hdr_txt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:gravity="center_vertical"
+                android:textColor="@color/textColor"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:textSize="@dimen/_18ssp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/rclv_itm_expd_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:justificationMode="inter_word"
+            android:textStyle="bold"
+            android:textColor="@color/textColor"
+            android:visibility="gone"
+            android:textSize="@dimen/_14ssp" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
