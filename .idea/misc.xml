@@ -3,7 +3,21 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable/ic_clear.xml" value="0.19010416666666666" />
+        <entry key="app/src/main/res/drawable/my_edittext.xml" value="0.116" />
+        <entry key="app/src/main/res/drawable/my_ripple.xml" value="0.1085" />
+        <entry key="app/src/main/res/drawable/my_toggle.xml" value="0.13" />
+        <entry key="app/src/main/res/drawable/ripple_effect.xml" value="0.19010416666666666" />
+        <entry key="app/src/main/res/drawable/toggle_on.xml" value="0.19010416666666666" />
+        <entry key="app/src/main/res/layout/activity_constrain_layout.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_form.xml" value="0.16" />
         <entry key="app/src/main/res/layout/activity_java_practical.xml" value="0.1503623188405797" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_main2.xml" value="0.11594202898550725" />
+        <entry key="app/src/main/res/layout/constrain_layout.xml" value="0.14130434782608695" />
+        <entry key="app/src/main/res/layout/cutom_toast.xml" value="0.161231884057971" />
+        <entry key="app/src/main/res/layout/exercise_list.xml" value="0.17395833333333333" />
+        <entry key="app/src/main/res/layout/form_excercise.xml" value="0.25" />
       </map>
     </option>
   </component>
