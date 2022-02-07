@@ -10,6 +10,36 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BasicOfKotlin">
         <activity
+            android:name="com.example.uiwidgets.CommonComponents"
+            android:exported="false" />
+        <activity
+            android:name="com.example.uiwidgets.ReUseComponent"
+            android:exported="false" />
+        <activity
+            android:name="com.example.uiwidgets.TabLayoutDemo"
+            android:exported="false" />
+        <activity
+            android:name="com.example.uiwidgets.TableLayoutDemo"
+            android:exported="false" />
+        <activity
+            android:name="com.example.uiwidgets.FrameLayoutDemo"
+            android:exported="false" />
+        <activity
+            android:name="com.example.uiwidgets.GridLayoutDemo"
+            android:exported="false" />
+        <activity
+            android:name="com.example.uiwidgets.RelativeLayoutDemo"
+            android:exported="false" />
+        <activity
+            android:name="com.example.uiwidgets.ConstrainLayoutDemo"
+            android:exported="false" />
+        <activity
+            android:name="com.example.uiwidgets.LinearLayoutDemo"
+            android:exported="false" />
+        <activity
+            android:name="com.example.uiwidgets.LayoutExercise"
+            android:exported="false" />
+        <activity
             android:name="com.example.uiwidgets.FormExercise"
             android:exported="true"
             android:screenOrientation="portrait" />

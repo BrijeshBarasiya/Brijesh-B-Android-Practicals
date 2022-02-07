@@ -13,4 +13,25 @@
     <string name="switchTitle">Switch</string>
     <string name="clearContentDescription">Clear</string>
     <string name="genderTitle">Gender:</string>
+    <string name="feedBackHeading">Enter Feedback details to send to the Developer:</string>
+    <string name="hint_email">Enter your Email</string>
+    <string name="feedback_details">Feedback Details</string>
+    <string name="email_response">Would you like an emial response?</string>
+    <string name="linear_layout">Linear Layout</string>
+    <string name="heading_constraint_layout">Constraint Layout</string>
+    <string name="relative_layout">Relative Layout</string>
+
+    <string-array name="spinner">
+        <item>Paise</item>
+    </string-array>
+
+    <string name="hello_blank_fragment">Fragment</string>
+    <string name="frame_layout">Frame Layout</string>
+    <string name="grid_layout">Grid Layout</string>
+    <string name="tab_layout">Tab Layout</string>
+    <string name="table_layout">Table Layout</string>
+    <string name="constraint_layout">Constraint Layout</string>
+    <string name="heading_frame_layout">Frame Layout</string>
+    <string name="heading_linear_layout">Linear layout</string>
+    <string name="heading_relative_layout">Relative Layout</string>
 </resources>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.uiwidgets.TableLayoutDemo">
+
+    <TableRow
+        android:layout_marginTop="10sp"
+        android:background="@drawable/my_edittext"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/lnar_heading_layout"
+            android:layout_width="match_parent"
+            android:layout_height="30sp"
+            android:gravity="center"
+            android:text="Table Layout"
+            android:textColor="@color/textColor"
+            android:textSize="@dimen/_18ssp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="10sp"
+        android:background="@drawable/my_edittext"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:layout_margin="10sp"
+            android:src="@drawable/ic_android_icon" />
+
+        <ImageView
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:layout_margin="10sp"
+            android:src="@drawable/ic_android_icon" />
+
+        <ImageView
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:layout_margin="10sp"
+            android:src="@drawable/ic_android_icon" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="10sp"
+        android:background="@drawable/my_edittext"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:layout_margin="10sp"
+            android:src="@drawable/ic_android_icon" />
+
+        <ImageView
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:layout_margin="10sp"
+            android:src="@drawable/ic_android_icon" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="10sp"
+        android:background="@drawable/my_edittext"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:layout_margin="10sp"
+            android:src="@drawable/ic_android_icon" />
+
+    </TableRow>
+
+</TableLayout>

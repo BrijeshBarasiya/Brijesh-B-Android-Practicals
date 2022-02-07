@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/formLayout"
+    android:id="@+id/form_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/backGound"
@@ -10,18 +10,19 @@
     tools:context="com.example.uiwidgets.FormExercise">
 
     <EditText
-        android:id="@+id/txtName"
+        android:id="@+id/txt_name"
         android:layout_width="300dp"
         android:layout_height="60dp"
         android:background="@drawable/my_edittext"
         android:hint="@string/hint_name"
         android:importantForAutofill="no"
         android:inputType="textPersonName"
+        android:textSize="@dimen/_16ssp"
         android:padding="10dp"
         android:textColor="@color/textColor" />
 
     <EditText
-        android:id="@+id/txtPhone"
+        android:id="@+id/txt_phone"
         android:layout_width="300dp"
         android:layout_height="60dp"
         android:layout_marginTop="10dp"
@@ -29,12 +30,13 @@
         android:hint="@string/hint_phone"
         android:importantForAutofill="no"
         android:inputType="phone"
+        android:textSize="@dimen/_16ssp"
         android:maxLength="10"
         android:padding="10dp"
         android:textColor="@color/textColor" />
 
     <LinearLayout
-        android:id="@+id/lvGender"
+        android:id="@+id/lv_gender"
         android:layout_width="300dp"
         android:layout_height="60dp"
         android:layout_marginTop="10dp"
@@ -46,7 +48,7 @@
             android:gravity="center"
             android:text="@string/genderTitle"
             android:textColor="@color/highLight"
-            android:textSize="18sp" />
+            android:textSize="@dimen/_16ssp" />
 
         <RadioGroup
             android:layout_width="wrap_content"
@@ -54,24 +56,24 @@
             android:orientation="horizontal">
 
             <RadioButton
-                android:id="@+id/rbMale"
+                android:id="@+id/rb_male"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_marginStart="10dp"
                 android:gravity="center"
                 android:text="@string/maleGender"
                 android:textColor="@color/textColor"
-                android:textSize="18sp" />
+                android:textSize="@dimen/_16ssp" />
 
             <RadioButton
-                android:id="@+id/rbFemale"
+                android:id="@+id/rb_female"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_marginStart="10dp"
                 android:gravity="center"
                 android:text="@string/femaleGender"
                 android:textColor="@color/textColor"
-                android:textSize="18sp" />
+                android:textSize="@dimen/_16ssp" />
 
         </RadioGroup>
 
@@ -88,35 +90,35 @@
             android:gravity="center"
             android:text="@string/hobbyTitle"
             android:textColor="@color/highLight"
-            android:textSize="18sp" />
+            android:textSize="@dimen/_16ssp" />
 
         <CheckBox
-            android:id="@+id/chTravelling"
+            android:id="@+id/ch_travelling"
             android:layout_width="wrap_content"
             android:layout_height="60dp"
             android:layout_marginStart="10dp"
             android:text="@string/travellingHobby"
             android:textColor="@color/textColor"
-            android:textSize="18sp" />
+            android:textSize="@dimen/_16ssp" />
 
         <CheckBox
-            android:id="@+id/chCyclying"
+            android:id="@+id/ch_cyclying"
             android:layout_width="wrap_content"
             android:layout_height="60dp"
             android:layout_marginStart="10dp"
             android:text="@string/cyclingHobby"
             android:textColor="@color/textColor"
-            android:textSize="18sp" />
+            android:textSize="@dimen/_16ssp" />
 
     </LinearLayout>
 
     <Button
-        android:id="@+id/btnSubmit"
+        android:id="@+id/btn_submit"
         android:layout_width="300dp"
         android:layout_height="50dp"
         android:backgroundTint="@color/onColor"
         android:text="@string/submitText"
-        android:textSize="18sp" />
+        android:textSize="@dimen/_16ssp" />
 
     <LinearLayout
         android:layout_width="300dp"
@@ -125,7 +127,7 @@
         android:orientation="horizontal">
 
         <ToggleButton
-            android:id="@+id/tgDemo"
+            android:id="@+id/tg_demo"
             android:layout_width="140dp"
             android:layout_height="match_parent"
             android:background="@drawable/my_toggle"
@@ -134,10 +136,10 @@
             android:textColor="@color/white"
             android:textOff="@string/offToggleText"
             android:textOn="@string/onToggleText"
-            android:textSize="18sp" />
+            android:textSize="@dimen/_16ssp" />
 
         <Switch
-            android:id="@+id/shDemo"
+            android:id="@+id/sh_demo"
             android:layout_width="140dp"
             android:layout_height="match_parent"
             android:layout_marginStart="20dp"
@@ -146,7 +148,7 @@
             android:gravity="center"
             android:text="@string/switchTitle"
             android:textColor="@color/textColor"
-            android:textSize="18sp"
+            android:textSize="@dimen/_16ssp"
             tools:ignore="UseSwitchCompatOrMaterialXml" />
 
     </LinearLayout>
@@ -158,7 +160,7 @@
         android:orientation="horizontal">
 
         <ImageButton
-            android:id="@+id/imgClear"
+            android:id="@+id/img_clear"
             android:layout_width="140dp"
             android:layout_height="40dp"
             android:layout_marginTop="10dp"
@@ -167,9 +169,8 @@
             android:foreground="@drawable/my_ripple"
             android:src="@drawable/ic_clear" />
 
-
         <ImageButton
-            android:id="@+id/imgDone"
+            android:id="@+id/img_done"
             android:layout_width="140dp"
             android:layout_height="40dp"
             android:layout_marginStart="10dp"
