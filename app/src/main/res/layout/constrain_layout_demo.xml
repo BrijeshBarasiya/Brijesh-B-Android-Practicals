@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backGound"
+    android:padding="10dp"
+    tools:context="com.example.uiwidgets.ConstrainLayoutDemo">
+
+    <TextView
+        android:id="@+id/cons_layout_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/constraint_layout"
+        android:textColor="@color/textColor"
+        android:textSize="@dimen/_18ssp"
+        app:layout_constraintBottom_toTopOf="@+id/consl_include"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <include
+        android:id="@+id/consl_include"
+        layout="@layout/re_use_component"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.238"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.083" />
+
+    <EditText
+        android:id="@+id/cons_feedback"
+        android:layout_width="match_parent"
+        android:layout_height="150sp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/my_edittext"
+        android:hint="@string/feedback_details"
+        android:inputType="textMultiLine"
+        android:padding="8dp"
+        android:textColor="@color/textColor"
+        android:textSize="@dimen/_16ssp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.526"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/consl_include" />
+
+    <CheckBox
+        android:id="@+id/cons_checkbox"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_marginTop="10dp"
+        android:padding="8dp"
+        android:text="@string/email_response"
+        android:textColor="@color/textColor"
+        android:textSize="@dimen/_16ssp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.526"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cons_feedback" />
+
+    <Button
+        android:id="@+id/cons_submit"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_marginTop="10dp"
+        android:text="@string/submitText"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_16ssp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cons_checkbox" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

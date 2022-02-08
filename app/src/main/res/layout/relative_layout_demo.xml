@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backGound"
+    android:padding="10sp"
+    tools:context="com.example.uiwidgets.RelativeLayoutDemo">
+
+    <TextView
+        android:id="@+id/rltv_heading_layout"
+        android:layout_width="match_parent"
+        android:layout_height="30sp"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:text="@string/heading_relative_layout"
+        android:textColor="@color/textColor"
+        android:textSize="@dimen/_18ssp" />
+
+    <include
+        android:id="@+id/rtvl_include"
+        layout="@layout/re_use_component"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp" />
+
+    <EditText
+        android:id="@+id/rltv_feedback"
+        android:layout_width="match_parent"
+        android:layout_height="150sp"
+        android:layout_alignTop="@id/rtvl_include"
+        android:layout_marginTop="240dp"
+        android:background="@drawable/my_edittext"
+        android:hint="@string/feedback_details"
+        android:inputType="textMultiLine"
+        android:padding="8dp"
+        android:textColor="@color/textColor"
+        android:textSize="@dimen/_16ssp" />
+
+    <CheckBox
+        android:id="@+id/rltv_checkbox"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_alignBottom="@id/rltv_submit"
+        android:layout_marginBottom="60sp"
+        android:padding="8dp"
+        android:text="@string/email_response"
+        android:textColor="@color/textColor"
+        android:textSize="@dimen/_16ssp" />
+
+    <Button
+        android:id="@+id/rltv_submit"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="470dp"
+        android:text="@string/submitText"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_16ssp" />
+
+</RelativeLayout>

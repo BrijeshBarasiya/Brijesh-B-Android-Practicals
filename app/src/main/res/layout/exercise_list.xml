@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:padding="10dp"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:padding="10dp">
 
     <TextView
-        android:id="@+id/lblListItem"
+        android:id="@+id/lbl_list_item"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:textColor="@color/textColor"
-        android:textSize="22sp"
-        android:textStyle="bold"
-        android:gravity="center"
+        android:layout_weight="7"
         android:background="@color/backGound"
-        android:layout_weight="7"/>
+        android:gravity="center"
+        android:textColor="@color/textColor"
+        android:textSize="@dimen/_18ssp"
+        android:textStyle="bold" />
 
 </LinearLayout>

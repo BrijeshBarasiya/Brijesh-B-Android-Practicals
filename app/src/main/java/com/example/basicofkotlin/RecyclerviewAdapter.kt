@@ -7,7 +7,8 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.uiwidgets.FormExercise
-import kotlinx.android.synthetic.main.exercise_list.view.lblListItem
+import com.example.uiwidgets.LayoutExercise
+import kotlinx.android.synthetic.main.exercise_list.view.lbl_list_item
 
 class RecyclerviewAdapter(val labelList: List<String>): RecyclerView.Adapter<RecyclerviewAdapter.ViewHolder>() {
 
@@ -28,11 +29,15 @@ class RecyclerviewAdapter(val labelList: List<String>): RecyclerView.Adapter<Rec
         
         val exerciseLabel: TextView
         init {
-            exerciseLabel = view.lblListItem
+            exerciseLabel = view.lbl_list_item
             exerciseLabel.setOnClickListener{
-                when(exerciseLabel.text) {
-                    "Chapter: 3(A) Ui Widgets" -> {
+                when(position) {
+                    0 -> {
                         var intent = Intent(view.context, FormExercise:: class.java)
+                        view.context.startActivity(intent)
+                    }
+                    1 -> {
+                        var intent = Intent(view.context, LayoutExercise:: class.java)
                         view.context.startActivity(intent)
                     }
                 }

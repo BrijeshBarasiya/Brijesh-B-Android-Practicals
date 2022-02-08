@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ly_layout_exercise"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="com.example.uiwidgets.LayoutExercise">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/demo_linear_layout"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/my_edittext"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="@string/linear_layout"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/_18ssp" />
+
+            <TextView
+                android:id="@+id/demo_constraint_layout"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/my_edittext"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="@string/constraint_layout"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/_18ssp" />
+
+            <TextView
+                android:id="@+id/demo_relative_layout"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/my_edittext"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="@string/relative_layout"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/_18ssp" />
+
+            <TextView
+                android:id="@+id/demo_frame_layout"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/my_edittext"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="@string/frame_layout"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/_18ssp" />
+
+            <TextView
+                android:id="@+id/demo_table_layout"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/my_edittext"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="@string/table_layout"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/_18ssp" />
+
+            <TextView
+                android:id="@+id/demo_grid_layout"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/my_edittext"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="@string/grid_layout"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/_18ssp" />
+
+            <TextView
+                android:id="@+id/demo_tab_layout"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/my_edittext"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="@string/tab_layout"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/_18ssp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
