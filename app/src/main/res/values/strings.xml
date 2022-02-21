@@ -42,4 +42,10 @@
     <string name="three_play_store">Play Store</string>
     <string name="grid_recyclerview">Grid Recyclerview</string>
     <string name="three_bottom_navigation">Bottom Navigation</string>
+    <string name="three_d_intent">Intent</string>
+    <string name="three_d_explicit_intent">Explicit Intent</string>
+    <string name="three_d_implicit_intent">Implicit Intent</string>
+    <string name="three_d_enter_your_name">Enter your Name</string>
+    <string name="three_d_life_cycle">Life Cycle</string>
+    <string name="three_d_practical_1">Practical 1</string>
 </resources>

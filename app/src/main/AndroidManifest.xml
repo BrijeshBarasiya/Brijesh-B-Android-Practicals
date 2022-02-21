@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.basicofkotlin">
+    package="com.example.basicofkotlin" >
 
     <application
         android:allowBackup="true"
@@ -9,6 +9,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.BasicOfKotlin">
+        <activity
+            android:name="com.example.intent_activity_fragment.Practical1"
+            android:exported="false" />
+        <activity
+            android:name="com.example.intent_activity_fragment.ActivityLifeCycle"
+            android:exported="false" />
+        <activity
+            android:name="com.example.intent_activity_fragment.ExplicitIntent"
+            android:exported="false" />
+        <activity
+            android:name="com.example.intent_activity_fragment.IntentActivityFragment"
+            android:exported="false" />
+        <activity
+            android:name="com.example.intent_activity_fragment.IntentClass"
+            android:exported="false" />
         <activity
             android:name="com.example.recyclevier.PlayStore"
             android:exported="false" />
@@ -34,16 +49,7 @@
             android:name="com.example.recyclevier.SimpleList"
             android:exported="false" />
         <activity
-            android:name="com.example.recyclevier.ListView"
-            android:exported="false" />
-        <activity
             android:name="com.example.recyclevier.RecyclerViewandAdapters"
-            android:exported="false" />
-        <activity
-            android:name="com.example.uiwidgets.CommonComponents"
-            android:exported="false" />
-        <activity
-            android:name="com.example.uiwidgets.ReUseComponent"
             android:exported="false" />
         <activity
             android:name="com.example.uiwidgets.TabLayoutDemo"
@@ -75,15 +81,13 @@
             android:screenOrientation="portrait" />
         <activity
             android:name=".JavaPractical"
-            android:exported="true"
-            android:screenOrientation="portrait" />
+            android:exported="true" />
         <activity
             android:name=".MainActivity"
             android:exported="true"
-            android:screenOrientation="portrait">
+            android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

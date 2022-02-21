@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<layout>
+
+    <data>
+
+        <variable
+            name="viewModel"
+            type="com.example.intent_activity_fragment.ViewModelClass" />
+
+    </data>
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.intent_activity_fragment.ViewMessage">
+
+        <TextView
+            android:id="@+id/message_list"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_60sdp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="@{viewModel.message}"
+            android:textSize="@dimen/_20ssp" />
+
+    </FrameLayout>
+
+</layout>
