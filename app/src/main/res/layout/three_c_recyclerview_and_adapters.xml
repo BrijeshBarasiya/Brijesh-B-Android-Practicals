@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/_5sdp"
+    tools:context="com.example.recyclevier.RecyclerViewandAdapters">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/demo_simple_listview"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:background="@drawable/my_edittext"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="@string/three_list_view"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/_18ssp" />
+
+            <TextView
+                android:id="@+id/demo_condition_listview"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:background="@drawable/my_edittext"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="@string/three_condition_based_list_view"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/_18ssp" />
+
+            <TextView
+                android:id="@+id/demo_multiple_listview"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:background="@drawable/my_edittext"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="@string/three_multiple_components_listview"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/_18ssp" />
+
+            <TextView
+                android:id="@+id/demo_expandable_listview"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:background="@drawable/my_edittext"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="@string/three_exapandabl_list_view"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/_18ssp" />
+
+            <TextView
+                android:id="@+id/demo_expandable_recyclerview"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:background="@drawable/my_edittext"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="@string/three_expandable_recycler_view"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/_18ssp" />
+
+            <TextView
+                android:id="@+id/demo_buttom_navigation"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:background="@drawable/my_edittext"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="@string/three_bottom_navigation"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/_18ssp" />
+
+            <TextView
+                android:id="@+id/demo_grid_recyclerview"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:background="@drawable/my_edittext"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="@string/grid_recyclerview"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/_18ssp" />
+
+            <TextView
+                android:id="@+id/demo_playstore"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:background="@drawable/my_edittext"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="@string/three_play_store"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/_18ssp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
