@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:layout_height="@dimen/_50sdp"
+        android:src="@drawable/ic_android_icon"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="7"
+        android:layout_height="@dimen/_50sdp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/lstv_heading"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="0dp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:gravity="center_vertical"
+            android:textColor="@color/textColor"
+            android:textSize="@dimen/_20ssp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/lstv_description"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="0dp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:gravity="center_vertical"
+            android:textColor="@color/purple_200"
+            android:textSize="@dimen/_16ssp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/lstv_checkbox"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_weight="1"/>
+
+</LinearLayout>
