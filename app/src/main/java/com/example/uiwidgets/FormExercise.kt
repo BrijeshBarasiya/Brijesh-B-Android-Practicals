@@ -9,19 +9,19 @@ import android.widget.TextView
 import android.widget.Toast
 import com.example.basicofkotlin.R
 import com.google.android.material.snackbar.Snackbar
-import kotlinx.android.synthetic.main.cutom_toast.custom_toast
-import kotlinx.android.synthetic.main.cutom_toast.view.tv_label
-import kotlinx.android.synthetic.main.form_excercise.btn_submit
-import kotlinx.android.synthetic.main.form_excercise.form_layout
-import kotlinx.android.synthetic.main.form_excercise.img_done
-import kotlinx.android.synthetic.main.form_excercise.sh_demo
-import kotlinx.android.synthetic.main.form_excercise.tg_demo
+import kotlinx.android.synthetic.main.three_a_cutom_toast.custom_toast
+import kotlinx.android.synthetic.main.three_a_cutom_toast.view.tv_label
+import kotlinx.android.synthetic.main.three_a_form_excercise.btn_submit
+import kotlinx.android.synthetic.main.three_a_form_excercise.form_layout
+import kotlinx.android.synthetic.main.three_a_form_excercise.img_done
+import kotlinx.android.synthetic.main.three_a_form_excercise.sh_demo
+import kotlinx.android.synthetic.main.three_a_form_excercise.tg_demo
 
 class FormExercise : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.form_excercise)
+        setContentView(R.layout.three_a_form_excercise)
 
         btn_submit.setOnClickListener {
             Toast.makeText(
@@ -59,7 +59,7 @@ class FormExercise : AppCompatActivity() {
 
     fun showCustomToast() {
         val layoutInflater: LayoutInflater = layoutInflater
-        val layout: View = layoutInflater.inflate(R.layout.cutom_toast, custom_toast)
+        val layout: View = layoutInflater.inflate(R.layout.three_a_cutom_toast, custom_toast)
         val labelToast: TextView = layout.tv_label
         val toast = Toast(applicationContext)
 

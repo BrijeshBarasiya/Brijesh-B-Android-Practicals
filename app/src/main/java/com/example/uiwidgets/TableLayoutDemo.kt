@@ -8,7 +8,7 @@ class TableLayoutDemo : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.table_layout_demo)
+        setContentView(R.layout.three_b_table_layout)
     }
 
 }
