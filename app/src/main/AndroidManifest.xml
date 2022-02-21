@@ -10,6 +10,36 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BasicOfKotlin">
         <activity
+            android:name="com.example.recyclevier.PlayStore"
+            android:exported="false" />
+        <activity
+            android:name="com.example.recyclevier.GridRecyclerView"
+            android:exported="false" />
+        <activity
+            android:name="com.example.recyclevier.BottomNavigation"
+            android:exported="false" />
+        <activity
+            android:name="com.example.recyclevier.ExpandableRecyclerView"
+            android:exported="false" />
+        <activity
+            android:name="com.example.recyclevier.ExpandableListView"
+            android:exported="false" />
+        <activity
+            android:name="com.example.recyclevier.CustomListView"
+            android:exported="false" />
+        <activity
+            android:name="com.example.recyclevier.ConditionBasedListView"
+            android:exported="false" />
+        <activity
+            android:name="com.example.recyclevier.SimpleList"
+            android:exported="false" />
+        <activity
+            android:name="com.example.recyclevier.ListView"
+            android:exported="false" />
+        <activity
+            android:name="com.example.recyclevier.RecyclerViewandAdapters"
+            android:exported="false" />
+        <activity
             android:name="com.example.uiwidgets.CommonComponents"
             android:exported="false" />
         <activity
