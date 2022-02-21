@@ -8,7 +8,7 @@ class GridLayoutDemo : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.grid_layout_demo)
+        setContentView(R.layout.three_b_grid_layout_demo)
     }
 
 }

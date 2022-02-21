@@ -34,4 +34,12 @@
     <string name="heading_frame_layout">Frame Layout</string>
     <string name="heading_linear_layout">Linear layout</string>
     <string name="heading_relative_layout">Relative Layout</string>
+    <string name="three_list_view">Simple List View</string>
+    <string name="three_condition_based_list_view">Condition Based List View</string>
+    <string name="three_multiple_components_listview">Custom Listview</string>
+    <string name="three_exapandabl_list_view">Exapandabl List View</string>
+    <string name="three_expandable_recycler_view">Expandable Recycler View</string>
+    <string name="three_play_store">Play Store</string>
+    <string name="grid_recyclerview">Grid Recyclerview</string>
+    <string name="three_bottom_navigation">Bottom Navigation</string>
 </resources>

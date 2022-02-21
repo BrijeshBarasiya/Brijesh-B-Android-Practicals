@@ -25,7 +25,7 @@ public class JavaPractical extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_java_practical);
+        setContentView(R.layout.one_java_practical);
         value1 = findViewById(R.id.txt_value1);
         value2 = findViewById(R.id.txt_value2);
         answer = findViewById(R.id.lbl_answer);

@@ -4,14 +4,14 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.basicofkotlin.R
 import com.google.android.material.tabs.TabLayout
-import kotlinx.android.synthetic.main.tab_layout_demo.tbly_demo
-import kotlinx.android.synthetic.main.tab_layout_demo.tbly_view_pager
+import kotlinx.android.synthetic.main.three_b_tab_layout_demo.tbly_demo
+import kotlinx.android.synthetic.main.three_b_tab_layout_demo.tbly_view_pager
 
 class TabLayoutDemo : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.tab_layout_demo)
+        setContentView(R.layout.three_b_tab_layout_demo)
 
         tbly_demo.addTab(tbly_demo.newTab().setText("Tab1"))
         tbly_demo.addTab(tbly_demo.newTab().setText("Tab2"))

@@ -6,6 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.example.recyclevier.RecyclerViewandAdapters
 import com.example.uiwidgets.FormExercise
 import com.example.uiwidgets.LayoutExercise
 import kotlinx.android.synthetic.main.exercise_list.view.lbl_list_item
@@ -31,13 +32,17 @@ class RecyclerviewAdapter(val labelList: List<String>): RecyclerView.Adapter<Rec
         init {
             exerciseLabel = view.lbl_list_item
             exerciseLabel.setOnClickListener{
-                when(position) {
+                when(bindingAdapterPosition) {
                     0 -> {
                         var intent = Intent(view.context, FormExercise:: class.java)
                         view.context.startActivity(intent)
                     }
                     1 -> {
                         var intent = Intent(view.context, LayoutExercise:: class.java)
+                        view.context.startActivity(intent)
+                    }
+                    2 -> {
+                        var intent = Intent(view.context, RecyclerViewandAdapters:: class.java)
                         view.context.startActivity(intent)
                     }
                 }
