@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/nav_gallary">
+
+    <fragment
+        android:id="@+id/nav_gallary"
+        android:name="com.example.intent_activity_fragment.Gallery"
+        android:label="three_d_fragment_gallery"
+        tools:layout="@layout/three_d_fragment_gallery" />
+    <fragment
+        android:id="@+id/nav_add_message"
+        android:name="com.example.intent_activity_fragment.AddMessage"
+        android:label="AddMessage" />
+    <fragment
+        android:id="@+id/nav_view_message"
+        android:name="com.example.intent_activity_fragment.ViewMessage"
+        android:label="ViewMessage" />
+
+</navigation>
