@@ -16,15 +16,19 @@ class IntentActivityFragment : AppCompatActivity() {
         val view = binding.root
         setContentView(view)
         binding.demoIntent.setOnClickListener {
-            var intent = Intent(applicationContext, IntentClass:: class.java)
+            val intent = Intent(applicationContext, IntentClass:: class.java)
             startActivity(intent)
         }
         binding.demoLifeCycle.setOnClickListener {
-            var intent = Intent(applicationContext, ActivityLifeCycle:: class.java)
+            val intent = Intent(applicationContext, ActivityLifeCycle:: class.java)
             startActivity(intent)
         }
         binding.practicalOne.setOnClickListener {
-            var intent = Intent(applicationContext, Practical1:: class.java)
+            val intent = Intent(applicationContext, Practical1:: class.java)
+            startActivity(intent)
+        }
+        binding.practicalTwo.setOnClickListener {
+            val intent = Intent(applicationContext, Practical2:: class.java)
             startActivity(intent)
         }
     }

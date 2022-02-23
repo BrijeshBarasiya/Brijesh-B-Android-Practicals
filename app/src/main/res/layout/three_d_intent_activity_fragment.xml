@@ -53,6 +53,18 @@
                 android:textColor="@color/textColor"
                 android:textSize="@dimen/_18ssp" />
 
+            <TextView
+                android:id="@+id/practical_two"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:background="@drawable/my_edittext"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="@string/three_d_practical_2"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/_18ssp" />
+
         </LinearLayout>
 
     </ScrollView>
