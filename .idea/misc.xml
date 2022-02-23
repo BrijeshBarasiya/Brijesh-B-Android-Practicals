@@ -67,10 +67,19 @@
         <entry key="app/src/main/res/layout/three_c_recyclerview_and_adapters.xml" value="0.18" />
         <entry key="app/src/main/res/layout/three_c_simple_list.xml" value="0.14273504273504273" />
         <entry key="app/src/main/res/layout/three_condition_based_list_view.xml" value="0.10733695652173914" />
+        <entry key="app/src/main/res/layout/three_d_activity_life_cycle.xml" value="0.1409282700421941" />
+        <entry key="app/src/main/res/layout/three_d_fragment_add_message.xml" value="0.12991452991452992" />
+        <entry key="app/src/main/res/layout/three_d_fragment_gallery.xml" value="0.12" />
+        <entry key="app/src/main/res/layout/three_d_fragment_view_message.xml" value="0.11752136752136752" />
+        <entry key="app/src/main/res/layout/three_d_implicit_intent.xml" value="0.14273504273504273" />
+        <entry key="app/src/main/res/layout/three_d_intent.xml" value="0.1409282700421941" />
+        <entry key="app/src/main/res/layout/three_d_intent_activity_fragment.xml" value="0.1409282700421941" />
+        <entry key="app/src/main/res/layout/three_d_practical1.xml" value="0.1409282700421941" />
         <entry key="app/src/main/res/layout/three_multiple_component.xml" value="0.10733695652173914" />
         <entry key="app/src/main/res/layout/three_simple_list.xml" value="0.10733695652173914" />
         <entry key="app/src/main/res/layouts/layout/list_view.xml" value="0.10733695652173914" />
         <entry key="app/src/main/res/menu/three_c_bottom_navigation_menu.xml" value="0.1409282700421941" />
+        <entry key="app/src/main/res/menu/three_d_bottom_navigation.xml" value="0.1409282700421941" />
       </map>
     </option>
   </component>

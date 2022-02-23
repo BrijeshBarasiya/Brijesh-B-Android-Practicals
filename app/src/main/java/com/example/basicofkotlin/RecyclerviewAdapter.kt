@@ -6,6 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.example.intent_activity_fragment.IntentActivityFragment
 import com.example.recyclevier.RecyclerViewandAdapters
 import com.example.uiwidgets.FormExercise
 import com.example.uiwidgets.LayoutExercise
@@ -43,6 +44,10 @@ class RecyclerviewAdapter(val labelList: List<String>): RecyclerView.Adapter<Rec
                     }
                     2 -> {
                         var intent = Intent(view.context, RecyclerViewandAdapters:: class.java)
+                        view.context.startActivity(intent)
+                    }
+                    3 -> {
+                        var intent = Intent(view.context, IntentActivityFragment:: class.java)
                         view.context.startActivity(intent)
                     }
                 }

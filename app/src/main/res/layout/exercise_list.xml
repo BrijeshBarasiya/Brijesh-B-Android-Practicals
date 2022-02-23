@@ -13,7 +13,7 @@
         android:background="@color/backGound"
         android:gravity="center"
         android:textColor="@color/textColor"
-        android:textSize="@dimen/_18ssp"
+        android:textSize="@dimen/_14ssp"
         android:textStyle="bold" />
 
 </LinearLayout>
