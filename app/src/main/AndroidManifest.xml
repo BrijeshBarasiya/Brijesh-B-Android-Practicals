@@ -10,6 +10,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BasicOfKotlin">
         <activity
+            android:name="com.example.intent_activity_fragment.IntentFilter"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="text/plain" />
+                <data android:mimeType="image/*" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name="com.example.intent_activity_fragment.Practical2"
             android:exported="false" />
         <activity
