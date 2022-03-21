@@ -3,6 +3,10 @@
     package="com.example.basicofkotlin">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
     <application
         android:allowBackup="true"
@@ -11,6 +15,36 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.BasicOfKotlin">
+        <activity
+            android:name="com.example.fragment_datapassing.DataPassing"
+            android:exported="false" />
+        <activity
+            android:name="com.example.permission_model.PermissionModel"
+            android:exported="false" />
+        <activity
+            android:name="com.example.coroutine.CoRoutineDemo"
+            android:exported="false" />
+        <activity
+            android:name="com.example.view_model_factory.ViewModelFactoryDemo"
+            android:exported="false" />
+        <activity
+            android:name="com.example.architecture.mvvm.api.view.ApiCallingUsingMVVM"
+            android:exported="false" />
+        <activity
+            android:name="com.example.binding_adapter.BindingAdapterDemo"
+            android:exported="false" />
+        <activity
+            android:name="com.example.architecture.mvvm.view.MVVMDemo"
+            android:exported="false" />
+        <activity
+            android:name="com.example.architecture.mvp.view.MVPDemo"
+            android:exported="false" />
+        <activity
+            android:name="com.example.architecture.AndroidArchitecture"
+            android:exported="false" />
+        <activity
+            android:name="com.example.architecture.mvc.controller.MVCController"
+            android:exported="false" />
         <activity
             android:name="com.example.other_layout.WebView"
             android:exported="false" />
