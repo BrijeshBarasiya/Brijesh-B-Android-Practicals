@@ -28,7 +28,7 @@ class DataPassingTo : Fragment() {
             // DataPassingToDirections IS OBJECT OF NAV GRAPH FRAGMENT ACTIONS
             // actionDataPassingToToDataPassingFrom IS ID OF NAV GRAPH ACTION
             // setArgument1 IS TO SET THAT ARGUMENT VALUE
-            val action =  DataPassingToDirections.actionDataPassingToToDataPassingFrom().setArgument1("HELLO GOOD MORNING!!")
+            val action =  DataPassingToDirections.redirectToParameter("HELLO GOOD MORNING!!")
             view.findNavController().navigate(action)
         }
     }

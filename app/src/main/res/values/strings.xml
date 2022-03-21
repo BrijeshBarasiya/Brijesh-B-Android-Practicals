@@ -65,13 +65,6 @@
     <string name="four_pdf">PDF</string>
     <string name="four_html">HTML</string>
     <string name="four_web">WEB</string>
-    <string name="api_called_successfully">API Called Successfully</string>
-    <string name="api_call_failed">API Called Failed</string>
-    <string name="viewmodel_is_not_instantiate">ViewModel is not instantiate</string>
-    <string name="enter_text">Enter ID</string>
-    <string name="print_me_fuction">printMe Function</string>
-    <string name="main_thread_is_running">Main Thread is Running</string>
-    <string name="on_create">OnCreate</string>
     <string name="five_enter_value">Enter Value</string>
     <string name="five_zero">0</string>
     <string name="five_add">ADD</string>
@@ -89,4 +82,29 @@
     <string name="five_view_model_factory">View Model Factory</string>
     <string name="five_coroutine">Coroutine</string>
     <string name="six_create_pdf">Create PDF</string>
+    <string name="seven_profile">PROFILE</string>
+    <string name="seven_about_us">ABOUT US</string>
+    <string name="seven_home">HOME</string>
+    <string name="seven_navigation_view">Navigation View</string>
+    <string name="seven_photo">Photo</string>
+    <string name="seven_add_massage">Add Massage</string>
+    <string name="seven_view_message">View Message</string>
+    <string name="seven_communicate">Communicate</string>
+    <string name="seven_share">Share</string>
+    <string name="seven_send">Send</string>
+    <string name="seven_toolbar">Toolbar</string>
+    <string name="seven_coordinator_layout">Coordinator Layout</string>
+    <string name="seven_about_android">Android is an open source and Linux-based Operating System for mobile devices such as smartphones and tablet computers. Android was developed by the Open Handset Alliance, led by Google, and other companies. Android offers a unified approach to application development for mobile devices which means developers need only develop for Android, and their applications should be able to run on different devices powered by Android. The first beta version of the Android Software Development Kit (SDK) was released by Google in 2007 where as the first commercial version, Android 1.0, was released in September 2008. On June 27, 2012, at the Google I/O conference, Google announced the next Android version, 4.1 Jelly Bean. Jelly Bean is an incremental update, with the primary aim of improving the user interface, both in terms of functionality and performance. The source code for Android is available under free and open source software licenses. Google publishes most of the code under the Apache License version 2.0 and the rest, Linux kernel changes, under the GNU General Public License version 2. Android applications are usually developed in the Java language using the Android Software Development Kit. Once developed, Android applications can be packaged easily and sold out either through a store such as Google Play, SlideME, Opera Mobile Store, Mobango, F-droid and the Amazon Appstore. Android powers hundreds of millions of mobile devices in more than 190 countries around the world. It\'s the largest installed base of any mobile platform and growing fast. Every day more than 1 million new Android devices are activated worldwide. This tutorial has been written with an aim to teach you how to develop and package Android application. We will start from environment setup for Android application programming and then drill down to look into various aspects of Android applications.</string>
+    <string name="seven_welcome_android">Welcome to Android</string>
+    <string name="seven_tab_bar">Tab Bar</string>
+    <string name="api_called_successfully">API Called Successfully</string>
+    <string name="api_call_failed">API Called Failed</string>
+    <string name="viewmodel_is_not_instantiate">ViewModel is not instantiate</string>
+    <string name="enter_text">Enter ID</string>
+    <string name="print_me_fuction">printMe Function</string>
+    <string name="main_thread_is_running">Main Thread is Running</string>
+    <string name="on_create">OnCreate</string>
+    <string name="divided_by_zero_is_not_possible">Divided by Zero is Not Possible</string>
+    <string name="enter_value_two">Enter Value Two.</string>
+
 </resources>

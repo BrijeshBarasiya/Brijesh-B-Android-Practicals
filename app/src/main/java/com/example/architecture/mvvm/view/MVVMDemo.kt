@@ -41,7 +41,7 @@ class MVVMDemo : AppCompatActivity() {
         binding.layoutMvvmDemo.setOnClickListener {
             if (currentFocus != null) {
                 val imm = getSystemService(INPUT_METHOD_SERVICE) as InputMethodManager
-                imm.hideSoftInputFromWindow(currentFocus!!.windowToken, 0)
+                imm.hideSoftInputFromWindow(currentFocus?.windowToken, 0)
             }
         }
     }

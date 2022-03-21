@@ -11,7 +11,7 @@
         android:label="other_data_passing_to"
         tools:layout="@layout/other_data_passing_to">
         <action
-            android:id="@+id/action_dataPassingTo_to_dataPassingFrom"
+            android:id="@+id/redirectToParameter"
             app:destination="@id/dataPassingFrom" />
     </fragment>
 

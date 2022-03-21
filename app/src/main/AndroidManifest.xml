@@ -16,6 +16,26 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BasicOfKotlin">
         <activity
+            android:name="com.example.design_support_library.TabBar"
+            android:theme="@style/AppTheme.NoActionBarTheme"
+            android:exported="false" />
+        <activity
+            android:name="com.example.design_support_library.CoordinatorLayout"
+            android:exported="false"
+            android:theme="@style/AppTheme.NoActionBarTheme" />
+        <activity
+            android:name="com.example.design_support_library.Toolbar"
+            android:exported="false" />
+        <activity
+            android:name="com.example.design_support_library.SimpleDrawer"
+            android:exported="false" />
+        <activity
+            android:name="com.example.design_support_library.NavigationView"
+            android:exported="false" />
+        <activity
+            android:name="com.example.design_support_library.DesignSupportLibrary"
+            android:exported="false" />
+        <activity
             android:name="com.example.fragment_datapassing.DataPassing"
             android:exported="false" />
         <activity

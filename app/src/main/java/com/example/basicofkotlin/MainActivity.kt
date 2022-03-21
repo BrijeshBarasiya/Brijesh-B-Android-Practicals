@@ -20,6 +20,7 @@ class MainActivity : AppCompatActivity() {
         exerciseList.add("Chapter: 5 Android Architecture")
         exerciseList.add("Chapter: 6 Permission Model")
         exerciseList.add("Fragment Data Passing")
+        exerciseList.add("Chapter: 7 Design Support Library")
         layout_recyclerview.adapter = RecyclerviewAdapter(exerciseList)
         layout_recyclerview.layoutManager = LinearLayoutManager(this)
     }

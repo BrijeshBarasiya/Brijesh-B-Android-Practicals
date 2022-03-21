@@ -7,6 +7,7 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.architecture.AndroidArchitecture
+import com.example.design_support_library.DesignSupportLibrary
 import com.example.fragment_datapassing.DataPassing
 import com.example.intent_activity_fragment.IntentActivityFragment
 import com.example.other_layout.FourExercise
@@ -81,6 +82,11 @@ class RecyclerviewAdapter(val labelList: List<String>): RecyclerView.Adapter<Rec
                     }
                     8 -> {
                         Intent(view.context, DataPassing:: class.java).apply {
+                            view.context.startActivity(this)
+                        }
+                    }
+                    9 -> {
+                        Intent(view.context, DesignSupportLibrary:: class.java).apply {
                             view.context.startActivity(this)
                         }
                     }

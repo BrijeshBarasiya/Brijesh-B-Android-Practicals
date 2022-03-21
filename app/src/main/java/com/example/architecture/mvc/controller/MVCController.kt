@@ -6,6 +6,7 @@ import android.view.inputmethod.InputMethodManager
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.example.architecture.mvc.model.MVCModel
+import com.example.basicofkotlin.R
 import com.example.basicofkotlin.databinding.FiveMvcDemoBinding
 
 class MVCController : AppCompatActivity() {
@@ -35,7 +36,7 @@ class MVCController : AppCompatActivity() {
                 binding.btnMul.id -> binding.txtValue1.text = multiplication(mvcModel).toString()
                 binding.btnDiv.id -> {
                     if(v2 == 0F) {
-                        Toast.makeText(applicationContext, "Divided by Zero is Not Possible", Toast.LENGTH_SHORT).show()
+                        Toast.makeText(applicationContext, resources.getString(R.string.divided_by_zero_is_not_possible), Toast.LENGTH_SHORT).show()
                     } else {
                         binding.txtValue1.text = division(mvcModel).toString()
                     }
@@ -43,7 +44,7 @@ class MVCController : AppCompatActivity() {
             }
             binding.txtValue2.text.clear()
         } else {
-            Toast.makeText(applicationContext, "Enter Value Two.", Toast.LENGTH_SHORT).show()
+            Toast.makeText(applicationContext, resources.getString(R.string.enter_value_two), Toast.LENGTH_SHORT).show()
         }
     }
 
@@ -69,7 +70,6 @@ class MVCController : AppCompatActivity() {
                 val imm = getSystemService(INPUT_METHOD_SERVICE) as InputMethodManager
                 imm.hideSoftInputFromWindow(currentFocus?.windowToken, 0)
             }
-
         }
     }
 

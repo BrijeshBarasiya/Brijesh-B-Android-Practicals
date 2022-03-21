@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="../../../../../layout/custom_preview.xml" value="0.45740740740740743" />
         <entry key="app/src/main/res/drawable/ic_android_icon.xml" value="0.116" />
         <entry key="app/src/main/res/drawable/ic_call.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/ic_clear.xml" value="0.19010416666666666" />
@@ -15,6 +16,7 @@
         <entry key="app/src/main/res/drawable/my_toggle.xml" value="0.13" />
         <entry key="app/src/main/res/drawable/ripple_effect.xml" value="0.19010416666666666" />
         <entry key="app/src/main/res/drawable/toggle_on.xml" value="0.19010416666666666" />
+        <entry key="app/src/main/res/layout-v26/seven_coordinator_layout.xml" value="0.22" />
         <entry key="app/src/main/res/layout/activity_common_components.xml" value="0.11413043478260869" />
         <entry key="app/src/main/res/layout/activity_constrain_layout.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_form.xml" value="0.16" />
@@ -60,7 +62,13 @@
         <entry key="app/src/main/res/layout/linear_layout_demo.xml" value="0.1076923076923077" />
         <entry key="app/src/main/res/layout/list_view.xml" value="0.12590579710144928" />
         <entry key="app/src/main/res/layout/listview_item.xml" value="0.14" />
+        <entry key="app/src/main/res/layout/menu_profile.xml" value="0.27575887131252674" />
         <entry key="app/src/main/res/layout/one_activity_main.xml" value="0.10733695652173914" />
+        <entry key="app/src/main/res/layout/one_java_practical.xml" value="0.22008547008547008" />
+        <entry key="app/src/main/res/layout/other_data_passing.xml" value="0.27575887131252674" />
+        <entry key="app/src/main/res/layout/other_data_passing_from.xml" value="0.27575887131252674" />
+        <entry key="app/src/main/res/layout/other_data_passing_to.xml" value="0.27575887131252674" />
+        <entry key="app/src/main/res/layout/other_datapassing_from.xml" value="0.27575887131252674" />
         <entry key="app/src/main/res/layout/one_java_practical.xml" value="0.22008547008547008" />
         <entry key="app/src/main/res/layout/other_data_passing.xml" value="0.27575887131252674" />
         <entry key="app/src/main/res/layout/other_data_passing_from.xml" value="0.27575887131252674" />
@@ -74,6 +82,17 @@
         <entry key="app/src/main/res/layout/relative_layout_demo.xml" value="0.14" />
         <entry key="app/src/main/res/layout/reuse_layout.xml" value="0.11413043478260869" />
         <entry key="app/src/main/res/layout/second_fragment.xml" value="0.11413043478260869" />
+        <entry key="app/src/main/res/layout/seven_coordinator_layout.xml" value="0.27575887131252674" />
+        <entry key="app/src/main/res/layout/seven_design_support_library.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/seven_fragment_about_us.xml" value="0.27575887131252674" />
+        <entry key="app/src/main/res/layout/seven_fragment_home.xml" value="0.27575887131252674" />
+        <entry key="app/src/main/res/layout/seven_fragment_profile.xml" value="0.27575887131252674" />
+        <entry key="app/src/main/res/layout/seven_menu_profile.xml" value="0.27575887131252674" />
+        <entry key="app/src/main/res/layout/seven_navigation_view.xml" value="0.2" />
+        <entry key="app/src/main/res/layout/seven_simple_drawer.xml" value="0.27575887131252674" />
+        <entry key="app/src/main/res/layout/seven_tab_bar.xml" value="0.27575887131252674" />
+        <entry key="app/src/main/res/layout/seven_toolbaar.xml" value="0.23599828986746474" />
+        <entry key="app/src/main/res/layout/six_permission_medel.xml" value="0.27575887131252674" />
         <entry key="app/src/main/res/layout/six_permission_medel.xml" value="0.27575887131252674" />
         <entry key="app/src/main/res/layout/tab_layout_demo.xml" value="0.11413043478260869" />
         <entry key="app/src/main/res/layout/table_layout_demo.xml" value="0.22" />
@@ -116,6 +135,7 @@
         <entry key="app/src/main/res/layout/three_simple_list.xml" value="0.10733695652173914" />
         <entry key="app/src/main/res/layouts/layout/list_view.xml" value="0.10733695652173914" />
         <entry key="app/src/main/res/menu/four_f_search_menu.xml" value="0.27564102564102566" />
+        <entry key="app/src/main/res/menu/seven_navigation_view.xml" value="0.27575887131252674" />
         <entry key="app/src/main/res/menu/three_c_bottom_navigation_menu.xml" value="0.1409282700421941" />
         <entry key="app/src/main/res/menu/three_d_bottom_navigation.xml" value="0.1409282700421941" />
       </map>

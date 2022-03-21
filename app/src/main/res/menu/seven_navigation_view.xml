@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
+
     <item
         android:id="@+id/nav_gallary"
         android:icon="@drawable/ic_photo"
@@ -12,4 +13,18 @@
         android:id="@+id/nav_view_message"
         android:icon="@drawable/ic_message"
         android:title="@string/seven_view_message" />
+
+    <item android:id="@+id/nav_communicate" android:title="@string/seven_communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_photo"
+                android:title="@string/seven_share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_add_message"
+                android:title="@string/seven_send" />
+        </menu>
+    </item>
+
 </menu>

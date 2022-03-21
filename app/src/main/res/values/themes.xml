@@ -12,5 +12,13 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+        <item name="actionOverflowButtonStyle">@style/AppTheme.DotTheme</item>
     </style>
+
+    <style name="AppTheme.NoActionBarTheme" parent="Theme.MaterialComponents.Light.NoActionBar" />
+
+    <style name="AppTheme.DotTheme" parent="Widget.AppCompat.ActionButton.Overflow" >
+        <item name="colorControlNormal">@color/teal_700</item>
+    </style>
+
 </resources>

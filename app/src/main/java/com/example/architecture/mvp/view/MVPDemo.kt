@@ -9,6 +9,7 @@ import androidx.appcompat.app.AppCompatActivity
 import com.example.architecture.mvp.model.MVPModel
 import com.example.architecture.mvp.presenter.IMVPPresenterClass
 import com.example.architecture.mvp.presenter.MVPPresenterClass
+import com.example.basicofkotlin.R
 import com.example.basicofkotlin.databinding.FiveMvpDemoBinding
 
 class MVPDemo : AppCompatActivity() {
@@ -40,7 +41,7 @@ class MVPDemo : AppCompatActivity() {
                 binding.btnDiv.id -> {
                     val v2: Float = binding.txtValue2.text.toString().toFloat()
                     if(v2 == 0F) {
-                        Toast.makeText(applicationContext, "Divided by Zero is Not Possible", Toast.LENGTH_SHORT).show()
+                        Toast.makeText(applicationContext, resources.getString(R.string.divided_by_zero_is_not_possible), Toast.LENGTH_SHORT).show()
                     } else {
                         presenterClass.division()
                     }
@@ -48,7 +49,7 @@ class MVPDemo : AppCompatActivity() {
             }
             binding.txtValue2.text.clear()
         } else {
-            Toast.makeText(applicationContext, "Enter Second Parameter.", Toast.LENGTH_SHORT).show()
+            Toast.makeText(applicationContext, resources.getString(R.string.enter_value_two), Toast.LENGTH_SHORT).show()
         }
     }
 
