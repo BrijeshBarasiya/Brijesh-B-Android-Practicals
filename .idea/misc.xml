@@ -62,6 +62,11 @@
         <entry key="app/src/main/res/layout/listview_item.xml" value="0.14" />
         <entry key="app/src/main/res/layout/one_activity_main.xml" value="0.10733695652173914" />
         <entry key="app/src/main/res/layout/one_java_practical.xml" value="0.22008547008547008" />
+        <entry key="app/src/main/res/layout/other_data_passing.xml" value="0.27575887131252674" />
+        <entry key="app/src/main/res/layout/other_data_passing_from.xml" value="0.27575887131252674" />
+        <entry key="app/src/main/res/layout/other_data_passing_to.xml" value="0.27575887131252674" />
+        <entry key="app/src/main/res/layout/other_datapassing_from.xml" value="0.27575887131252674" />
+        <entry key="app/src/main/res/layout/one_java_practical.xml" value="0.22008547008547008" />
         <entry key="app/src/main/res/layout/playstore_app_item.xml" value="0.14273504273504273" />
         <entry key="app/src/main/res/layout/playstore_apps_item.xml" value="0.14273504273504273" />
         <entry key="app/src/main/res/layout/re_use_component.xml" value="0.16" />
@@ -69,6 +74,7 @@
         <entry key="app/src/main/res/layout/relative_layout_demo.xml" value="0.14" />
         <entry key="app/src/main/res/layout/reuse_layout.xml" value="0.11413043478260869" />
         <entry key="app/src/main/res/layout/second_fragment.xml" value="0.11413043478260869" />
+        <entry key="app/src/main/res/layout/six_permission_medel.xml" value="0.27575887131252674" />
         <entry key="app/src/main/res/layout/tab_layout_demo.xml" value="0.11413043478260869" />
         <entry key="app/src/main/res/layout/table_layout_demo.xml" value="0.22" />
         <entry key="app/src/main/res/layout/three_a_form_excercise.xml" value="0.10733695652173914" />

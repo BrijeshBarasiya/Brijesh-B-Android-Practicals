@@ -7,8 +7,10 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.architecture.AndroidArchitecture
+import com.example.fragment_datapassing.DataPassing
 import com.example.intent_activity_fragment.IntentActivityFragment
 import com.example.other_layout.FourExercise
+import com.example.permission_model.PermissionModel
 import com.example.recyclevier.RecyclerViewandAdapters
 import com.example.uiwidgets.FormExercise
 import com.example.uiwidgets.LayoutExercise
@@ -32,38 +34,55 @@ class RecyclerviewAdapter(val labelList: List<String>): RecyclerView.Adapter<Rec
 
     class ViewHolder(view: View): RecyclerView.ViewHolder(view) {
         
-        val exerciseLabel: TextView
+        val exerciseLabel: TextView = view.lbl_list_item
+
         init {
-            exerciseLabel = view.lbl_list_item
             exerciseLabel.setOnClickListener{
                 when(bindingAdapterPosition) {
                     0 -> {
-                        var intent = Intent(view.context, FormExercise:: class.java)
-                        view.context.startActivity(intent)
+                        Intent(view.context, FormExercise:: class.java).apply {
+                            view.context.startActivity(this)
+                        }
                     }
                     1 -> {
-                        var intent = Intent(view.context, LayoutExercise:: class.java)
-                        view.context.startActivity(intent)
+                        Intent(view.context, LayoutExercise:: class.java).apply {
+                            view.context.startActivity(this)
+                        }
                     }
                     2 -> {
-                        var intent = Intent(view.context, RecyclerViewandAdapters:: class.java)
-                        view.context.startActivity(intent)
+                        Intent(view.context, RecyclerViewandAdapters:: class.java).apply {
+                            view.context.startActivity(this)
+                        }
                     }
                     3 -> {
-                        var intent = Intent(view.context, IntentActivityFragment:: class.java)
-                        view.context.startActivity(intent)
+                        Intent(view.context, IntentActivityFragment:: class.java).apply {
+                            view.context.startActivity(this)
+                        }
                     }
                     4 -> {
-                        var intent = Intent(view.context, FourExercise:: class.java)
-                        view.context.startActivity(intent)
+                        Intent(view.context, FourExercise:: class.java).apply {
+                            view.context.startActivity(this)
+                        }
                     }
                     5 -> {
-                        var intent = Intent(view.context, LoginScreen:: class.java)
-                        view.context.startActivity(intent)
+                        Intent(view.context, LoginScreen:: class.java).apply {
+                            view.context.startActivity(this)
+                        }
                     }
                     6 -> {
-                        var intent = Intent(view.context, AndroidArchitecture:: class.java)
-                        view.context.startActivity(intent)
+                        Intent(view.context, AndroidArchitecture:: class.java).apply {
+                            view.context.startActivity(this)
+                        }
+                    }
+                    7 -> {
+                        Intent(view.context, PermissionModel:: class.java).apply {
+                            view.context.startActivity(this)
+                        }
+                    }
+                    8 -> {
+                        Intent(view.context, DataPassing:: class.java).apply {
+                            view.context.startActivity(this)
+                        }
                     }
                 }
             }
