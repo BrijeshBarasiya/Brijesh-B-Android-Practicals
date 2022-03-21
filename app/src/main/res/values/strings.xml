@@ -65,4 +65,13 @@
     <string name="four_pdf">PDF</string>
     <string name="four_html">HTML</string>
     <string name="four_web">WEB</string>
+    <string name="five_enter_value">Enter Value</string>
+    <string name="five_zero">0</string>
+    <string name="five_add">ADD</string>
+    <string name="five_sub">SUB</string>
+    <string name="five_mul">MUL</string>
+    <string name="five_div">DIV</string>
+    <string name="five_mvc_architecture">MVC Architecture</string>
+    <string name="five_mvp_architecture">MVP Architecture</string>
+    <string name="five_mvvm_architecture">MVVM Architecture</string>
 </resources>
