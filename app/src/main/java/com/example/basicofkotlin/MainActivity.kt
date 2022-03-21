@@ -14,7 +14,8 @@ class MainActivity : AppCompatActivity() {
         var exerciseList = mutableListOf("Chapter: 3(A) Ui-Widgets")
         exerciseList.add("Chapter: 3(B) Ui-Widgets")
         exerciseList.add("Chapter: 3(C) RecyclerView ")
-        exerciseList.add("Chapter: 3(D) Intent, Activity & Fragment ")
+        exerciseList.add("Chapter: 3(D) Intent, Activity & Fragment")
+        exerciseList.add("Chapter: 4 Web Services")
         layout_recyclerview.adapter = RecyclerviewAdapter(exerciseList)
         layout_recyclerview.layoutManager = LinearLayoutManager(this)
     }

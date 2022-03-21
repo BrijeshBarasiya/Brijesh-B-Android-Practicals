@@ -20,6 +20,7 @@
     <string name="linear_layout">Linear Layout</string>
     <string name="heading_constraint_layout">Constraint Layout</string>
     <string name="relative_layout">Relative Layout</string>
+    <string name="four_manual_parsing">Manual Parsing</string>
 
     <string-array name="spinner">
         <item>Paise</item>
@@ -49,4 +50,13 @@
     <string name="three_d_life_cycle">Life Cycle</string>
     <string name="three_d_practical_1">Practical 1</string>
     <string name="three_d_practical_2">Practical 2</string>
+    <string name="four_username">Username</string>
+    <string name="four_password">Password</string>
+    <string name="four_loading">Loading...</string>
+    <string name="four_create_user">Create New User</string>
+    <string name="four_enter_your_job">Enter Your Job...</string>
+    <string name="four_enter_id">Enter ID</string>
+    <string name="four_create">Create</string>
+    <string name="four_update">Update</string>
+    <string name="four_delete">Delete</string>
 </resources>
