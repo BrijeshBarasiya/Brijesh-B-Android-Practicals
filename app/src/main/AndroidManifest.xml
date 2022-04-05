@@ -12,6 +12,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BasicOfKotlin">
         <activity
+            android:name="com.example.other_layout.WebView"
+            android:exported="false" />
+        <activity
+            android:name="com.example.other_layout.FourExercise"
+            android:exported="false" />
+        <activity
+            android:name="com.example.other_layout.SearchViewInRecycler"
+            android:exported="false" />
+        <activity
+            android:name="com.example.other_layout.NestedLayout"
+            android:exported="false" />
+        <activity
             android:name="com.example.webservices.ManualJsonDataParsing"
             android:exported="false" />
         <activity

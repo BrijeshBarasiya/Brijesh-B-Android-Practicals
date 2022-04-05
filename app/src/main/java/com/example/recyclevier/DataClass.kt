@@ -193,7 +193,7 @@ class DataClass {
             CustomListViewValue("Heading6", "Item6")
         )
 
-        val simpleListValues = arrayListOf("Item1", "Item2", "Item3", "Item4")
+        val simpleListValues = arrayListOf("Candy Crush", "Roblox", "Subway Surfers", "Ludo", "8 Ball Pool", "Homescapes", "Hunter Assassin", "Mini Militia", "Brain Out", "Gradenscapes", "Twonship", "Frag", "My Talking Tom")
     }
 
 }

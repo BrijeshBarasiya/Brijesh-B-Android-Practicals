@@ -52,11 +52,17 @@
     <string name="three_d_practical_2">Practical 2</string>
     <string name="four_username">Username</string>
     <string name="four_password">Password</string>
-    <string name="four_loading">Loading...</string>
+    <string name="four_loading">Loading…</string>
     <string name="four_create_user">Create New User</string>
-    <string name="four_enter_your_job">Enter Your Job...</string>
+    <string name="four_enter_your_job">Enter Your Job…</string>
     <string name="four_enter_id">Enter ID</string>
     <string name="four_create">Create</string>
     <string name="four_update">Update</string>
     <string name="four_delete">Delete</string>
+    <string name="four_nested_scroll_view">Nested Scroll View</string>
+    <string name="four_search_view">Search View</string>
+    <string name="four_webview">Webview</string>
+    <string name="four_pdf">PDF</string>
+    <string name="four_html">HTML</string>
+    <string name="four_web">WEB</string>
 </resources>
