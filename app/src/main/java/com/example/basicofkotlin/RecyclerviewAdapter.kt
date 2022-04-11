@@ -10,6 +10,7 @@ import com.example.intent_activity_fragment.IntentActivityFragment
 import com.example.recyclevier.RecyclerViewandAdapters
 import com.example.uiwidgets.FormExercise
 import com.example.uiwidgets.LayoutExercise
+import com.example.webservices.LoginScreen
 import kotlinx.android.synthetic.main.exercise_list.view.lbl_list_item
 
 class RecyclerviewAdapter(val labelList: List<String>): RecyclerView.Adapter<RecyclerviewAdapter.ViewHolder>() {
@@ -48,6 +49,10 @@ class RecyclerviewAdapter(val labelList: List<String>): RecyclerView.Adapter<Rec
                     }
                     3 -> {
                         var intent = Intent(view.context, IntentActivityFragment:: class.java)
+                        view.context.startActivity(intent)
+                    }
+                    4 -> {
+                        var intent = Intent(view.context, LoginScreen:: class.java)
                         view.context.startActivity(intent)
                     }
                 }
