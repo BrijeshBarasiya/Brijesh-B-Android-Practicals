@@ -12,6 +12,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BasicOfKotlin">
         <activity
+            android:name="com.example.coroutine.CoRoutineDemo"
+            android:exported="false" />
+        <activity
+            android:name="com.example.view_model_factory.ViewModelFactoryDemo"
+            android:exported="false" />
+        <activity
+            android:name="com.example.architecture.mvvm.api.view.ApiCallingUsingMVVM"
+            android:exported="false" />
+        <activity
+            android:name="com.example.binding_adapter.BindingAdapterDemo"
+            android:exported="false" />
+        <activity
             android:name="com.example.architecture.mvvm.view.MVVMDemo"
             android:exported="false" />
         <activity
@@ -51,8 +63,10 @@
             android:name="com.example.intent_activity_fragment.IntentFilter"
             android:exported="true">
             <intent-filter>
-                <action android:name="android.intent.action.SEND"/>
+                <action android:name="android.intent.action.SEND" />
+
                 <category android:name="android.intent.category.DEFAULT" />
+
                 <data android:mimeType="text/plain" />
                 <data android:mimeType="image/*" />
             </intent-filter>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="fetchedData"
+            type="com.example.architecture.mvvm.api.viewmodel.ApiViewModel" />
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.architecture.mvvm.api.view.ApiCallingUsingMVVM">
+
+        <TextView
+            android:id="@+id/lbl_first_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{fetchedData.userInfo.data.firstName}"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:text="@string/five_call_api"
+            android:textStyle="bold"
+            android:textSize="@dimen/_14ssp"
+            android:layout_marginTop="@dimen/_50sdp"
+            android:layout_marginStart="@dimen/_25sdp"
+            android:layout_marginEnd="@dimen/_25sdp"
+            android:onClick="onCallApiClicked"
+            app:layout_constraintTop_toBottomOf="@id/lbl_first_name" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>
