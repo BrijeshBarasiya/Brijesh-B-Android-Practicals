@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_data_passing"
+    app:startDestination="@id/dataPassingTo">
+
+    <fragment
+        android:id="@+id/dataPassingTo"
+        android:name="com.example.fragment_datapassing.DataPassingTo"
+        android:label="other_data_passing_to"
+        tools:layout="@layout/other_data_passing_to">
+        <action
+            android:id="@+id/action_dataPassingTo_to_dataPassingFrom"
+            app:destination="@id/dataPassingFrom" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/dataPassingFrom"
+        android:name="com.example.fragment_datapassing.DataPassingFrom"
+        android:label="other_data_passing_from"
+        tools:layout="@layout/other_data_passing_from">
+        <argument
+            android:name="argument1"
+            android:defaultValue="Hello"
+            app:argType="string" />
+    </fragment>
+
+</navigation>

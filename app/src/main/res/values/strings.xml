@@ -65,4 +65,21 @@
     <string name="four_pdf">PDF</string>
     <string name="four_html">HTML</string>
     <string name="four_web">WEB</string>
+    <string name="five_enter_value">Enter Value</string>
+    <string name="five_zero">0</string>
+    <string name="five_add">ADD</string>
+    <string name="five_sub">SUB</string>
+    <string name="five_mul">MUL</string>
+    <string name="five_div">DIV</string>
+    <string name="five_mvc_architecture">MVC Architecture</string>
+    <string name="five_mvp_architecture">MVP Architecture</string>
+    <string name="five_mvvm_architecture">MVVM Architecture</string>
+    <string name="five_binding_adapter">Binding Adapter</string>
+    <string name="five_api_calling_using_mvvm">API Calling using MVVM</string>
+    <string name="five_call_api">Call Api</string>
+    <string name="five_add_text">Add Text</string>
+    <string name="five_enter_new_item">Enter New Item</string>
+    <string name="five_view_model_factory">View Model Factory</string>
+    <string name="five_coroutine">Coroutine</string>
+    <string name="six_create_pdf">Create PDF</string>
 </resources>
