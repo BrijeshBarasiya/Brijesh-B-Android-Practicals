@@ -6,9 +6,9 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.example.architecture.AndroidArchitecture
 import com.example.intent_activity_fragment.IntentActivityFragment
 import com.example.other_layout.FourExercise
-import com.example.other_layout.NestedLayout
 import com.example.recyclevier.RecyclerViewandAdapters
 import com.example.uiwidgets.FormExercise
 import com.example.uiwidgets.LayoutExercise
@@ -59,6 +59,10 @@ class RecyclerviewAdapter(val labelList: List<String>): RecyclerView.Adapter<Rec
                     }
                     5 -> {
                         var intent = Intent(view.context, LoginScreen:: class.java)
+                        view.context.startActivity(intent)
+                    }
+                    6 -> {
+                        var intent = Intent(view.context, AndroidArchitecture:: class.java)
                         view.context.startActivity(intent)
                     }
                 }

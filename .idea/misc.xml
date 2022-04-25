@@ -27,6 +27,17 @@
         <entry key="app/src/main/res/layout/cutom_toast.xml" value="0.161231884057971" />
         <entry key="app/src/main/res/layout/exercise_list.xml" value="0.17395833333333333" />
         <entry key="app/src/main/res/layout/first_fragment.xml" value="0.11413043478260869" />
+        <entry key="app/src/main/res/layout/five_android_architecture.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/five_api_calling_using_mvvm.xml" value="0.27575887131252674" />
+        <entry key="app/src/main/res/layout/five_binding_adapter.xml" value="0.23386062419837536" />
+        <entry key="app/src/main/res/layout/five_binding_adapter_demo.xml" value="0.18683197947840957" />
+        <entry key="app/src/main/res/layout/five_co_routine_demo.xml" value="0.27575887131252674" />
+        <entry key="app/src/main/res/layout/five_mcvdemo.xml" value="0.1893162393162393" />
+        <entry key="app/src/main/res/layout/five_mvc_demo.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/five_mvp_demo.xml" value="0.27564102564102566" />
+        <entry key="app/src/main/res/layout/five_mvvmapi_calling.xml" value="0.27575887131252674" />
+        <entry key="app/src/main/res/layout/five_mvvmdemo.xml" value="0.27575887131252674" />
+        <entry key="app/src/main/res/layout/five_view_model_factory_demo.xml" value="0.27575887131252674" />
         <entry key="app/src/main/res/layout/form_excercise.xml" value="0.14" />
         <entry key="app/src/main/res/layout/four_create_user.xml" value="0.21" />
         <entry key="app/src/main/res/layout/four_custom_dialog.xml" value="0.1423076923076923" />
@@ -50,6 +61,7 @@
         <entry key="app/src/main/res/layout/list_view.xml" value="0.12590579710144928" />
         <entry key="app/src/main/res/layout/listview_item.xml" value="0.14" />
         <entry key="app/src/main/res/layout/one_activity_main.xml" value="0.10733695652173914" />
+        <entry key="app/src/main/res/layout/one_java_practical.xml" value="0.22008547008547008" />
         <entry key="app/src/main/res/layout/playstore_app_item.xml" value="0.14273504273504273" />
         <entry key="app/src/main/res/layout/playstore_apps_item.xml" value="0.14273504273504273" />
         <entry key="app/src/main/res/layout/re_use_component.xml" value="0.16" />
@@ -63,6 +75,7 @@
         <entry key="app/src/main/res/layout/three_b_constrain_layout_demo.xml" value="0.27564102564102566" />
         <entry key="app/src/main/res/layout/three_b_first_fragment.xml" value="0.14273504273504273" />
         <entry key="app/src/main/res/layout/three_b_linear_layout.xml" value="0.13405797101449277" />
+        <entry key="app/src/main/res/layout/three_b_second_fragment.xml" value="0.27564102564102566" />
         <entry key="app/src/main/res/layout/three_b_tab_layout_demo.xml" value="0.14273504273504273" />
         <entry key="app/src/main/res/layout/three_b_table_layout.xml" value="0.14273504273504273" />
         <entry key="app/src/main/res/layout/three_c_buttom_navigation.xml" value="0.14273504273504273" />

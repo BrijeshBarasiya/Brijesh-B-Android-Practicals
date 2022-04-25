@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="bindingData"
+            type="com.example.binding_adapter.BindingAdapterDemo" />
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/layout_data_binding"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.binding_adapter.BindingAdapterDemo">
+
+        <TextView
+            android:id="@+id/lbl_display_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            custom="@{bindingData.bindingData}"
+            android:layout_marginTop="@dimen/_100sdp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/txt_get_data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_20ssp"
+            android:inputType="text"
+            android:text="@={bindingData.bindingData}"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/lbl_display_result" />
+
+        <EditText
+            android:id="@+id/txt_inverse_value1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_20ssp"
+            android:inputType="text"
+            android:text="@={bindingData.floatToString(bindingData.inverseValue1)}"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/txt_get_data" />
+
+        <EditText
+            android:id="@+id/txt_inverse_value2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_20ssp"
+            android:inputType="text"
+            android:text="@={bindingData.floatToString(bindingData.inverseValue1)}"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/txt_inverse_value1" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
