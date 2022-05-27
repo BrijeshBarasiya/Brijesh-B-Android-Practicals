@@ -1,16 +1,23 @@
 package com.example.basicofkotlin
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.recyclerview.widget.GridLayoutManager
+import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.microsoft.appcenter.AppCenter
+import com.microsoft.appcenter.analytics.Analytics
+import com.microsoft.appcenter.crashes.Crashes
 import kotlinx.android.synthetic.main.one_activity_main.layout_recyclerview
+
 
 class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.one_activity_main)
+        AppCenter.start(
+            application, "57297735-c216-42eb-871c-793580ee6593",
+            Analytics::class.java, Crashes::class.java
+        )
         var exerciseList = mutableListOf("Chapter: 3(A) Ui-Widgets")
         exerciseList.add("Chapter: 3(B) Ui-Widgets")
         exerciseList.add("Chapter: 3(C) RecyclerView ")
